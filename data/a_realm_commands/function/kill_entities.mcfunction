@@ -1,0 +1,1 @@
+kill @e[type=!player,distance=..3]

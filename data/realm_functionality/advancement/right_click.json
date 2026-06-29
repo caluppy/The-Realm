@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{right_click:true}"}
+                }
+            }
+        }
+    },
+    "rewards": {
+    "function": "realm_functionality:right_click"
+    }
+}
