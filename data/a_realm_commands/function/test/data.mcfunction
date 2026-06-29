@@ -1,0 +1,1 @@
+data get entity @n[type=!player]

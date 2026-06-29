@@ -1,1 +1,1 @@
-kill @e[type=!player,distance=..3]
+kill @n[type=!player,distance=..5]
