@@ -1,7 +1,6 @@
 {
     "values":
     [
-                "background_realm_hub:base_loop",
-                "realm_functionality:track_motion"
+        "realm:tick/generic"
     ]
 }

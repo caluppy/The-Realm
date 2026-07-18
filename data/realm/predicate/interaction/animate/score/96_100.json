@@ -1,0 +1,10 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "animate": {
+            "max": 100,
+            "min": 96
+        }
+    }
+}

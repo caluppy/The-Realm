@@ -1,0 +1,17 @@
+[
+    {
+        "condition": "reference",
+        "name": "realm:interaction/generic"
+    },
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "entity_tags": {
+                "all_of": [
+                    "realm.click.sheep_wars"
+                ]
+            }
+        }
+    }
+]

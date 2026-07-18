@@ -1,5 +1,5 @@
 {
     "values":[
-        "realm_functionality:load"
+        "realm:tick/load/generic"
     ]
 }

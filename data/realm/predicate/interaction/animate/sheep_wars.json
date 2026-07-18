@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "entity_type": "sheep",
+        "entity_tags": {
+            "all_of": [
+                "realm.animate.sheep_wars"
+            ]
+        }
+    }
+}

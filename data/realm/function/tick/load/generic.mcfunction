@@ -4,6 +4,9 @@
 #click event scoreboards
 scoreboard objectives add right.click dummy
 
+##check loaded
+scoreboard objectives add realm.loaded dummy
+
 #position tracking scoreboards
 scoreboard objectives add player.yaw dummy
 scoreboard objectives add player.pitch dummy
@@ -19,10 +22,20 @@ scoreboard objectives add velocity.z dummy
 
 #math scoreboards for constants 
 scoreboard objectives add constants dummy
+scoreboard players set #0 constants 0
+scoreboard players set #3 constants 3
+scoreboard players set #8 constants 8
+scoreboard players set #10 constants 10
 scoreboard players set #20 constants 20
+scoreboard players set #57 constants 57
 scoreboard players set #10000 constants 10000
 
 #player UUID scoreboards for summoning player specific entities
 scoreboard objectives add player_UUID_0 dummy
 scoreboard objectives add entity_UUID_0 dummy
 execute as @a store result score @s player_UUID_0 run data get entity @s UUID[0]
+
+#for interactions:
+scoreboard objectives add interaction.attack.time dummy
+scoreboard objectives add interaction.interact.time dummy
+scoreboard objectives add animate dummy
