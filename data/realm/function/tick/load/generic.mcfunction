@@ -39,3 +39,5 @@ execute as @a store result score @s player_UUID_0 run data get entity @s UUID[0]
 scoreboard objectives add interaction.attack.time dummy
 scoreboard objectives add interaction.interact.time dummy
 scoreboard objectives add animate dummy
+
+#for command return output

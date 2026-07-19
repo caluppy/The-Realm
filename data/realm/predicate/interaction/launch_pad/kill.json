@@ -1,0 +1,15 @@
+[
+    {
+        "condition": "reference",
+        "name": "realm:interaction/launch_pad/launch"
+    },
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "flags": {
+                "is_on_ground": true
+            }
+        }
+    }
+]

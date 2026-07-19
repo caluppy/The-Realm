@@ -1,1 +1,0 @@
-scoreboard players list @n[type=!player]

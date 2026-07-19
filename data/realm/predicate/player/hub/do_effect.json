@@ -1,0 +1,17 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "resistance": {},
+            "saturation": {},
+            "instant_health": {}
+        },
+        "type_specific/player": {
+            "gamemode": [
+                "adventure",
+                "survival"
+            ]
+        }
+    }
+}
