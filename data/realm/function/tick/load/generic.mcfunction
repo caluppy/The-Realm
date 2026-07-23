@@ -20,6 +20,15 @@ scoreboard objectives add velocity.x dummy
 scoreboard objectives add velocity.y dummy
 scoreboard objectives add velocity.z dummy
 
+#useful scores for all games:
+scoreboard objectives add time dummy
+scoreboard objectives add count dummy
+scoreboard objectives add food food
+scoreboard objectives add health health
+scoreboard objectives add death deathCount
+scoreboard objectives add kills playerKillCount
+scoreboard objectives add sort.count dummy
+
 #math scoreboards for constants 
 scoreboard objectives add constants dummy
 scoreboard players set #0 constants 0
@@ -39,5 +48,3 @@ execute as @a store result score @s player_UUID_0 run data get entity @s UUID[0]
 scoreboard objectives add interaction.attack.time dummy
 scoreboard objectives add interaction.interact.time dummy
 scoreboard objectives add animate dummy
-
-#for command return output
